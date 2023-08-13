@@ -16,7 +16,7 @@ def index():
     cursor.execute('SELECT * FROM top250movies')
     rows = cursor.fetchall()
 
-    # Close the connection
+    # Close the connection``
     conn.close()
 
     # Render the template with the data
